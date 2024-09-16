@@ -1,0 +1,239 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.medsos {
+	padding: 15px 0;
+	background-color: #1DD3E9;
+}
+
+.medsos ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+
+}
+
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+body ul {
+	font-family: helvetica;
+}
+
+header h1 {
+
+	float: left;
+	padding: 10px 0;
+	color: #1DD3E9;
+}
+
+header ul {
+	color: lightskyblue;
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+header ul li a:hover {
+	background-color: #1DD3E9;
+	color: white;
+}
+
+.active {
+	background-color: #1DD3E9;
+	color: white;
+}
+
+.banner {
+	height: 70vh;
+	background-image: url('../img/ab.jpg');
+	background-size: 100% auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+h2 {
+	color: white;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid white;
+}
+
+section {
+	padding: 50px 0;
+}
+
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #1DD3E9;
+	margin-bottom: 10px;
+}
+
+.about p {
+	color: gray;
+	margin-bottom: 30px;
+}
+
+.box {}
+
+.box .col-3 {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	color: #1DD3E9;
+	float: left;
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	margin: 0px auto;
+}
+
+.box .col-3 h4 {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.box .col-3 h3 {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.col-3 img {
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
+}
+
+.skill p {
+	text-align: center;
+
+}
+
+.contact p {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.label {
+	color: #1DD3E9;
+	padding: 15px;
+	margin-bottom: 0px;
+}
+
+.contact p {
+	color: black;
+}
+
+footer {
+	padding: 30px 0;
+	background-color: #1DD3E9;
+	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	.medsos ul {
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.container {
+		width: 95%;
+		padding: 5px;
+	}
+
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+
+	header ul {
+		text-align: center;
+		float: none;
+	}
+
+	.about p {
+		text-align: center;
+	}
+
+	.about img {
+		width: 180px;
+		height: 180px;
+		border: none;
+	}
+
+	.banner {
+		font-size: 10px;
+		height: 20vh;
+	}
+
+	section {
+		padding: 0px;
+	}
+
+	.skill h3 {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.contact h3 {
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 25px;
+	}
+
+	.box .col-3 {
+		width: 100%;
+		float: none;
+	}
+
+	footer {
+		padding: 25px 0;
+	}
+}
